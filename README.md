@@ -4,7 +4,7 @@ Rock-Paper-Scissors
 
 ## Description
 
- The build process of Rock-Paper-Scissors game was managed using Webpac
+ The build process of Rock-Paper-Scissors game was managed using Webpack
 
 ## Getting Started
 
