@@ -12,6 +12,7 @@ const isProd = !isDev;
 
 
 const filename = (ext) => isDev ? `[name].${ext}` : `[name].[contenthash].${ext}`;
+const imgName = (ext) => isDev ? `[name].${ext}` : `[name].${ext}`;
 
 
 const plugins = () => {
@@ -132,7 +133,7 @@ module.exports = {
                 use: [{
                   loader: 'file-loader',
                   options: {
-                    name: `./img/${filename('[ext]')}`
+                    name: `./img/${imgName('[ext]')}`
                   }
                 }],
               },
